@@ -1,0 +1,73 @@
+.showpage-container {
+    position: relative;
+    width:100%;
+    height: 100vh;
+    overflow: hidden  
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size:cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight:bold;
+    margin-bottom: 0.5em;
+}
+
+.signup-form {
+    display: inline-block;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    margin-right: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.get-started-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.get-started-button:hover {
+    background-color: #f40612;
+}
+
+

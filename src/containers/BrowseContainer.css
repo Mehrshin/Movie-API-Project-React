@@ -1,0 +1,28 @@
+/* Add this to your stylesheet or in the component's style */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .pagination a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: rgb(47, 47, 47);
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  

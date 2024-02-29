@@ -1,0 +1,16 @@
+.headerContainer {
+    background-color: var(--chakra-colors-gray-100); /* Default light mode color */
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.darkMode {
+    background-color: var(--chakra-colors-gray-600); /* Default dark mode color */
+}
+
+.headerContent {
+    height: 4rem; 
+    align-items: center;
+    justify-content: space-between;
+}
