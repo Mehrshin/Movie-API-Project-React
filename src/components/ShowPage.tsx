@@ -1,4 +1,3 @@
-import React from 'react';
 import './ShowPage.css';
 import movieclip from '../assets/movieclip.mp4';
 import { Link } from 'react-router-dom';
